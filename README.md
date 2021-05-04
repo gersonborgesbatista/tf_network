@@ -2,7 +2,7 @@
 
 Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e trabalhos executados no dia a dia de trabalho.
 
-<!--ts-->
+** Índice
    * [Sobre o desafio](#Sobre-o-desafio)
    * [Tabela de Conteudo](#tabela-de-conteudo)
    * [Instalação](#instalacao)
@@ -14,7 +14,6 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
       * [Combo](#combo)
    * [Tests](#testes)
    * [Tecnologias](#tecnologias)
-<!--te-->
 
 ***
 
