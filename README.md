@@ -1,8 +1,6 @@
 # tf_network
 
 Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e trabalhos executados no dia a dia de trabalho.
-
-Índice
 ===============
 <!--ts-->
    * [Sobre o desafio](#Sobre-o-desafio)
