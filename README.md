@@ -60,13 +60,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
       
 2. Criar a comunicação entre as VPC usando VPC Peering
   a. Fluxograma
-  +-------+                            +-------+
-  | VPC B |                            | VPC C |   
-  +-------+                            +-------+
-      |                                    |
-      |            +----------+            |
-      +------------+   VPC A  +------------+
-                   +----------+
+  
   b. Parâmetros desejados
     i. VPC A fala com VPC B e C
    ii. VPC B fala com VPC A
