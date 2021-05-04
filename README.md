@@ -24,18 +24,18 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 1. Criar uma estrutura básica de rede usando 3 VPCs.
   * a. Criar as VPCs usando os respectivos blocos
     * i. VPC A - 10.10.0.0/16
-   * ii. VPC B - 10.20.0.0/16
-  * iii. VPC C - 10.30.0.0/16
-  b. Cada VPC precisa ser segmentada em 3 tipos de tráfego
-    i. Public - subnet que pode receber acessos públicos vindo da internet.
-   ii. Private - subnet que irá alocar os servidores de aplicações.
-  iii. Database - subnet que irá alocar os servidores de banco de dados.
-  c. Cada subnet precisa ter 4 AZ (Availability Zones - São locais distintos dentro de uma região classificadas como A,B,C e D).
-    I. subnet-pb (Public) 
-      1. subnet-pb-a 
-      2. subnet-pb-b 
-      3. subnet-pb-c
-      4. subnet-pb-d
+    * ii. VPC B - 10.20.0.0/16
+    * iii. VPC C - 10.30.0.0/16
+  * b. Cada VPC precisa ser segmentada em 3 tipos de tráfego
+    * i. Public - subnet que pode receber acessos públicos vindo da internet.
+    * ii. Private - subnet que irá alocar os servidores de aplicações.
+    * iii. Database - subnet que irá alocar os servidores de banco de dados.
+  * c. Cada subnet precisa ter 4 AZ (Availability Zones - São locais distintos dentro de uma região classificadas como A,B,C e D).
+    * I. subnet-pb (Public) 
+      * 1. subnet-pb-a 
+      * 2. subnet-pb-b 
+      * 3. subnet-pb-c
+      * 4. subnet-pb-d
     II. subnet-pv (Private) 
       1. subnet-pv-a 
       2. subnet-pv-b 
