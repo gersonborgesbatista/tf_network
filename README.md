@@ -22,42 +22,42 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 
 **Objetivos**
 1. Criar uma estrutura básica de rede usando 3 VPCs.
-  * a. Criar as VPCs usando os respectivos blocos
-    * i. VPC A - 10.10.0.0/16
-    * ii. VPC B - 10.20.0.0/16
-    * iii. VPC C - 10.30.0.0/16
-  * b. Cada VPC precisa ser segmentada em 3 tipos de tráfego
-    * i. Public - subnet que pode receber acessos públicos vindo da internet.
-    * ii. Private - subnet que irá alocar os servidores de aplicações.
-    * iii. Database - subnet que irá alocar os servidores de banco de dados.
-  * c. Cada subnet precisa ter 4 AZ (Availability Zones - São locais distintos dentro de uma região classificadas como A,B,C e D).
-    * I. subnet-pb (Public) 
-      * 1. subnet-pb-a 
-      * 2. subnet-pb-b 
-      * 3. subnet-pb-c
-      * 4. subnet-pb-d
-    II. subnet-pv (Private) 
-      1. subnet-pv-a 
-      2. subnet-pv-b 
-      3. subnet-pv-c 
-      4. subnet-pv-d
-   III. subnet-db (Database) 
-      1. subnet-db-a 
-      2. subnet-db-b 
-      3. subnet-db-c 
-      4. subnet-db-d
-  d. Cada VPC precisa ter 2 tabelas de roteamento
-    i. Tabela roteamento pública
-      1. subnet-pb-a 
-      2. subnet-pb-b 
-      3. subnet-pb-c 
-      4. subnet-pb-d
-    ii. Tabela roteamento privada 
-      1. subnet-pv-a
-      2. subnet-db-a 
-      3. subnet-pv-b 
-      4. subnet-db-b 
-      5. etc
+  * Criar as VPCs usando os respectivos blocos
+    * VPC A - 10.10.0.0/16
+    * VPC B - 10.20.0.0/16
+    * VPC C - 10.30.0.0/16
+  * Cada VPC precisa ser segmentada em 3 tipos de tráfego
+    * Public - subnet que pode receber acessos públicos vindo da internet.
+    * Private - subnet que irá alocar os servidores de aplicações.
+    * Database - subnet que irá alocar os servidores de banco de dados.
+  * Cada subnet precisa ter 4 AZ (Availability Zones - São locais distintos dentro de uma região classificadas como A,B,C e D).
+    * subnet-pb (Public) 
+     * subnet-pb-a 
+     * subnet-pb-b 
+     * subnet-pb-c
+     * subnet-pb-d
+    * subnet-pv (Private) 
+     * subnet-pv-a 
+     * subnet-pv-b 
+     * subnet-pv-c 
+     * subnet-pv-d
+    * subnet-db (Database) 
+     * subnet-db-a 
+     * subnet-db-b 
+     * subnet-db-c 
+     * subnet-db-d
+  * Cada VPC precisa ter 2 tabelas de roteamento
+    * Tabela roteamento pública
+     * subnet-pb-a 
+     * subnet-pb-b 
+     * subnet-pb-c 
+     * subnet-pb-d
+    * Tabela roteamento privada 
+     * subnet-pv-a
+     * subnet-db-a 
+     * subnet-pv-b 
+     * subnet-db-b 
+     * etc
       
 2. Criar a comunicação entre as VPC usando VPC Peering
   a. Fluxograma
