@@ -18,7 +18,9 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
    * [Tecnologias](#tecnologias)
 <!--te-->
 
-##Sobre o desafio##
+***
+
+## Sobre o desafio
 
 **Objetivos**
 1. Criar uma estrutura básica de rede usando 3 VPCs.
@@ -32,32 +34,32 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
     * Database - subnet que irá alocar os servidores de banco de dados.
   * Cada subnet precisa ter 4 AZ (Availability Zones - São locais distintos dentro de uma região classificadas como A,B,C e D).
     * subnet-pb (Public) 
-     * subnet-pb-a 
-     * subnet-pb-b 
-     * subnet-pb-c
-     * subnet-pb-d
+      * subnet-pb-a 
+      * subnet-pb-b 
+      * subnet-pb-c
+      * subnet-pb-d
     * subnet-pv (Private) 
-     * subnet-pv-a 
-     * subnet-pv-b 
-     * subnet-pv-c 
-     * subnet-pv-d
+      * subnet-pv-a 
+      * subnet-pv-b 
+      * subnet-pv-c 
+      * subnet-pv-d
     * subnet-db (Database) 
-     * subnet-db-a 
-     * subnet-db-b 
-     * subnet-db-c 
-     * subnet-db-d
+      * subnet-db-a 
+      * subnet-db-b 
+      * subnet-db-c 
+      * subnet-db-d
   * Cada VPC precisa ter 2 tabelas de roteamento
     * Tabela roteamento pública
-     * subnet-pb-a 
-     * subnet-pb-b 
-     * subnet-pb-c 
-     * subnet-pb-d
+      * subnet-pb-a 
+      * subnet-pb-b 
+      * subnet-pb-c 
+      * subnet-pb-d
     * Tabela roteamento privada 
-     * subnet-pv-a
-     * subnet-db-a 
-     * subnet-pv-b 
-     * subnet-db-b 
-     * etc
+      * subnet-pv-a
+      * subnet-db-a 
+      * subnet-pv-b 
+      * subnet-db-b 
+      * etc
       
 2. Criar a comunicação entre as VPC usando VPC Peering
   a. Fluxograma
