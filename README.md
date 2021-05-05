@@ -95,10 +95,14 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 
 <img src="Images/diagrama.png" alt="diagrama.png" width="700">
 
+***
+
 ## Pré Requisitos
 
 Antes de começar, você vai precisar ter o [Terraform](https://www.terraform.io/) instalado em sua máquina e uma conta na [AWS](https://aws.amazon.com/pt/) com a variável de ambiente configurada.
 Além disto é bom ter um editor para trabalhar com o código como o [Visual Studio Code](https://code.visualstudio.com/).
+
+***
 
 ## Rodando o código
 
@@ -119,6 +123,8 @@ Execute o código
 $ terraform apply
 ```
 
+***
+
 ## Tecnologias e recursos
 
 * AWS https://aws.amazon.com/pt/
@@ -126,6 +132,8 @@ $ terraform apply
 * Terraform https://www.terraform.io/
 * Visual Studio Code https://code.visualstudio.com/
 * Curso AWS com Terraform https://www.udemy.com/course/aws-com-terraform/
+
+***
 
 ## Contatos
 
