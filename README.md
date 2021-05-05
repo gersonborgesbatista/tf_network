@@ -3,7 +3,7 @@
 Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e trabalhos executados no dia a dia de trabalho.
 
 **Índice**
-   * [Sobre o desafio](#Sobre-o-desafio)
+   * [Sobre o projeto](#Sobre-o-projeto)
    * [Estrutura](#Estrutura)
    * [Como usar](#como-usar)
       * [Pré Requisitos](#Pré-requisitos)
@@ -13,7 +13,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 
 ***
 
-## Sobre o desafio
+## Sobre o projeto
 
 **Objetivos**
 **1. Criar uma estrutura básica de rede usando 3 VPCs.**
