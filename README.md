@@ -100,7 +100,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 
 ### Pré Requisitos
 
-Antes de começar, você vai precisar ter o [Terraform](https://www.terraform.io/) instalado em sua máquina e uma conta na [AWS](https://aws.amazon.com/pt/)com variável de ambiente configurada.
+Antes de começar, você vai precisar ter o [Terraform](https://www.terraform.io/) instalado em sua máquina e uma conta na [AWS](https://aws.amazon.com/pt/)com a variável de ambiente configurada.
 Além disto é bom ter um editor para trabalhar com o código como o [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Rodando o código
