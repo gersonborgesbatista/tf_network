@@ -95,6 +95,5 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 
 ## Requisitos
 
-1. ![Terraform](https://www.terraform.io/)
-2. ![Github](https://github.com/)
+Antes de começar, você vai precisar ter o [Terraform](https://www.terraform.io/) instalado em sua máquina.
       
