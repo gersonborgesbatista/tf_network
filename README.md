@@ -87,7 +87,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
      * VPC C fala com VPC A
      * VPC B e C não podem se falar
    
-**5. Criar uma VPN IPSEC com um ponto remoto e a VPC A
+**5. Criar uma VPN IPSEC com um ponto remoto e a VPC A**
   * Fluxograma
    
     <img src="Images/vpn.png" alt="vpn.png" width="300">
@@ -96,7 +96,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 
 ## Estrutura
 
-<img src="diagrama/transitgateway.png" alt="diagrama.png" width="300">
+<img src="diagrama/transitgateway.png" alt="diagrama.png" width="700">
 
 
 
