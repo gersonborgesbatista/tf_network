@@ -6,13 +6,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
    * [Sobre o desafio](#Sobre-o-desafio)
    * [Estrutura](#instalacao)
    * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)
+   * [Requisitos](#requisitos)
 
 ***
 
@@ -99,5 +93,8 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 <img src="Images/diagrama.png" alt="diagrama.png" width="700">
 
 
+## Requisitos
 
+1. ![Terraform](https://www.terraform.io/)
+2. ![Github](https://github.com/)
       
