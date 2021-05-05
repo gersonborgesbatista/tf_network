@@ -8,6 +8,8 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
    * [Como usar](#como-usar)
       * [Pré Requisitos](#Pré-requisitos)
       * [Rodando o código](#Rodando-o-código)
+   * [Tecnologias e recursos](#Tecnologias-e-recursos)
+   * [Contatos](#Contatos)
 
 ***
 
@@ -96,7 +98,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 
 ## Como usar
 
-### Pre Requisitos
+### Pré Requisitos
 
 Antes de começar, você vai precisar ter o [Terraform](https://www.terraform.io/) instalado em sua máquina e uma conta na [AWS](https://aws.amazon.com/pt/)com variável de ambiente configurada.
 Além disto é bom ter um editor para trabalhar com o código como o [Visual Studio Code](https://code.visualstudio.com/)
@@ -120,7 +122,19 @@ Execute o código
 $ terraform apply
 ```
 
+## Tecnologias e recursos
 
+* AWS https://aws.amazon.com/pt/
+* Draw.io https://app.diagrams.net/
+* Terraform https://www.terraform.io/
+* Visual Studio Code https://code.visualstudio.com/
+* Curso AWS com Terraform https://www.udemy.com/course/aws-com-terraform/
 
+## Contatos
 
+Para qualquer pergunta ou feedback, sinta-se à vontade para entrar em contato comigo:
+
+* E-mail: gerson.borges@live.com
+* Linkedin: https://www.linkedin.com/in/gerson-borges/
+ 
       
