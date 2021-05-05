@@ -4,9 +4,11 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 
 **Índice**
    * [Sobre o desafio](#Sobre-o-desafio)
-   * [Estrutura](#instalacao)
+   * [Estrutura](#Estrutura)
    * [Como usar](#como-usar)
-   * [Requisitos](#requisitos)
+      * [Pré Requisitos](#Pré requisitos)
+      * [Rodando o código](#Rodando-o-código)
+   * [Tecnologias]
 
 ***
 
@@ -93,7 +95,33 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 <img src="Images/diagrama.png" alt="diagrama.png" width="700">
 
 
-## Requisitos
+## Como usar
 
-Antes de começar, você vai precisar ter o [Terraform](https://www.terraform.io/) instalado em sua máquina.
+### Pré Requisitos
+
+Antes de começar, você vai precisar ter o [Terraform](https://www.terraform.io/) instalado em sua máquina e uma conta na [AWS](https://aws.amazon.com/pt/)com variável de ambiente configurada.
+Além disto é bom ter um editor para trabalhar com o código como o [Visual Studio Code](https://code.visualstudio.com/)
+
+### Rodando o código
+
+```bash
+Clone este repositório
+$ git clone <https://github.com/gersonborgesbatista/tf_network.git>
+
+Acesse a pasta do projeto no terminal
+$ cd tf_network
+
+Inicie o terraform
+$ terraform init
+
+Verifique as configurações antes de executar efetivamente
+$ terraform plan
+
+Execute o código
+$ terraform apply
+```
+
+
+
+
       
