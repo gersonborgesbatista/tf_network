@@ -96,7 +96,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 
 ## Estrutura
 
-<img src="diagrama/transitgateway.png" alt="diagrama.png" width="700">
+<img src="images/diagrama.png" alt="diagrama.png" width="700">
 
 
 
