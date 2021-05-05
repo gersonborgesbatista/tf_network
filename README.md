@@ -4,8 +4,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 
 **Índice**
    * [Sobre o desafio](#Sobre-o-desafio)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#instalacao)
+   * [Estrutura](#instalacao)
    * [Como usar](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
       * [Local files](#local-files)
@@ -20,7 +19,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 ## Sobre o desafio
 
 **Objetivos**
-1. Criar uma estrutura básica de rede usando 3 VPCs.
+**1. Criar uma estrutura básica de rede usando 3 VPCs.**
   * Criar as VPCs usando os respectivos blocos
     * VPC A - 10.10.0.0/16
     * VPC B - 10.20.0.0/16
@@ -58,20 +57,46 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
       * subnet-db-b 
       * etc
       
-2. Criar a comunicação entre as VPC usando VPC Peering
-    * fluxograma
+**2. Criar a comunicação entre as VPC usando VPC Peering**
+  * Fluxograma
     
       <img src="Images/vpc.png" alt="vpc.png" width="300">
     
-  b. Parâmetros desejados
-    i. VPC A fala com VPC B e C
-   ii. VPC B fala com VPC A
-  iii. VPC C fala com VPC A
-   iv. VPC B e C não podem se falar
+    * Parâmetros desejados
+     * VPC A fala com VPC B e C
+     * VPC B fala com VPC A
+     * VPC C fala com VPC A
+     * VPC B e C não podem se falar
 
-3. Criar a comunicação entre as VPC usando Transit-Gateway
-a. Fluxograma
+**3. Criar a comunicação entre as VPC usando Transit-Gateway**
+  * Fluxograma
 
+      <img src="Images/transitgateway.png" alt="transitgateway.png" width="300">
+    
+   * Parâmetros desejados
+     * VPC A fala com VPC B e C
+     * VPC B fala com VPC A e C
+     * VPC C fala com VPC A e B
+
+**4. Criar a comunicação entre as VPC usando Transit-Gateway com controle de tráfego**
+  * Mesmo que o Step 3 com tabelas de roteamento diferentes para cada VPC
+  * Criar a comunicação entre as VPC usando Transit-Gateway
+     * Criar 3 tabelas de roteamento no transit-gateway (uma para cada VPC)
+     * VPC A fala com VPC B e C
+     * VPC B fala com VPC A
+     * VPC C fala com VPC A
+     * VPC B e C não podem se falar
+   
+**5. Criar uma VPN IPSEC com um ponto remoto e a VPC A
+  * Fluxograma
+   
+    <img src="Images/vpn.png" alt="vpn.png" width="300">
+    
+***
+
+## Estrutura
+
+<img src="diagrama/transitgateway.png" alt="diagrama.png" width="300">
 
 
 
