@@ -6,9 +6,8 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
    * [Sobre o desafio](#Sobre-o-desafio)
    * [Estrutura](#Estrutura)
    * [Como usar](#como-usar)
-      * [Pré Requisitos](#Pré requisitos)
+      * [Pre Requisitos](#Pre requisitos)
       * [Rodando o código](#Rodando-o-código)
-   * [Tecnologias]
 
 ***
 
@@ -97,7 +96,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 
 ## Como usar
 
-### Pré Requisitos
+### Pre Requisitos
 
 Antes de começar, você vai precisar ter o [Terraform](https://www.terraform.io/) instalado em sua máquina e uma conta na [AWS](https://aws.amazon.com/pt/)com variável de ambiente configurada.
 Além disto é bom ter um editor para trabalhar com o código como o [Visual Studio Code](https://code.visualstudio.com/)
