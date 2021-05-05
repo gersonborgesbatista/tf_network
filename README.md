@@ -60,7 +60,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
       
 2. Criar a comunicação entre as VPC usando VPC Peering
   * fluxograma
-     ![VPC](C:\Users\Gerson\Pictures\VPCs.png)
+     ![VPC](C:\VPCs.png)
     
   b. Parâmetros desejados
     i. VPC A fala com VPC B e C
