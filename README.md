@@ -6,7 +6,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
    * [Sobre o desafio](#Sobre-o-desafio)
    * [Estrutura](#Estrutura)
    * [Como usar](#como-usar)
-      * [Pre Requisitos](#Pre requisitos)
+      * [Pré Requisitos](#Pré-requisitos)
       * [Rodando o código](#Rodando-o-código)
 
 ***
