@@ -59,8 +59,8 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
       * etc
       
 2. Criar a comunicação entre as VPC usando VPC Peering
-  * Fluxograma
-    <img src="https://drive.google.com/file/d/16He5POH9Illo9L-gUcP4fAEAUWbxCoPX/view?usp=sharing
+  * fluxograma
+     ! [VPCs](C:\Users\Gerson\Downloads\VPCs.png)
     
   b. Parâmetros desejados
     i. VPC A fala com VPC B e C
@@ -70,11 +70,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 
 3. Criar a comunicação entre as VPC usando Transit-Gateway
 a. Fluxograma
-+-------+ | VPC B | +---+---+
-+-------+ | VPC A | +---+---+
-+-------+ | VPC C | +---+---+
-||| ||| | +--------+--------+ | +-------+ Transit-Gateway +--------+
-+-----------------+
+
 
 
 
