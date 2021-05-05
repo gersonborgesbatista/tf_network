@@ -14,7 +14,7 @@ Este projeto é uma avaliação do provisionamento de recursos de rede envolvend
 
 ## Sobre o projeto
 
-Foi implementado uma estrutura básica de redes usando 3 VPCs segmentada em 3 tipos de tráfego e criado a comunicação entre as VPC usando peering e também transit gateway com controle de tráfego, assim como um VPN IPSEC de um ponto remoto à VPC A.
+Foi implementado uma estrutura básica de redes usando 3 VPC segmentada em 3 tipos de tráfego e criado a comunicação entre as VPC usando peering e também transit gateway com controle de tráfego, assim como um VPN IPSEC de um ponto remoto à VPC A.
 
 Na comunicação via peering a VPC A fala com a VPC B e C, VPC B fala apenas com a VPC A, VPC C fala apenas com a VPC A, VPC B e C não se falam conforme solicitado.
 
