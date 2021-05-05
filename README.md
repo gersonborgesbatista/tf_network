@@ -16,6 +16,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 ## Sobre o projeto
 
 **Objetivos**
+
 **1. Criar uma estrutura básica de rede usando 3 VPCs.**
   * Criar as VPCs usando os respectivos blocos
     * VPC A - 10.10.0.0/16
