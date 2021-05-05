@@ -60,6 +60,7 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
       
 2. Criar a comunicação entre as VPC usando VPC Peering
     * fluxograma
+    
       <img src="Images/vpc.png" alt="vpc.png" width="300">
     
   b. Parâmetros desejados
