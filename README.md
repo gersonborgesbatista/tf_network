@@ -132,7 +132,7 @@ $ terraform apply
 
 ## Contatos
 
-Para qualquer pergunta ou feedback, sinta-se à vontade para entrar em contato comigo:
+Para qualquer pergunta ou feedback, sinta-se à vontade para entrar em contato:
 
 * E-mail: gerson.borges@live.com
 * Linkedin: https://www.linkedin.com/in/gerson-borges/
