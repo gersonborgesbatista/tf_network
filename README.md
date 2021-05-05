@@ -5,9 +5,8 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 **Índice**
    * [Sobre o projeto](#Sobre-o-projeto)
    * [Estrutura](#Estrutura)
-   * [Como usar](#como-usar)
-      * [Pré Requisitos](#Pré-requisitos)
-      * [Rodando o código](#Rodando-o-código)
+   * [Pré Requisitos](#Pré-requisitos)
+   * [Rodando o código](#Rodando-o-código)
    * [Tecnologias e recursos](#Tecnologias-e-recursos)
    * [Contatos](#Contatos)
 
@@ -96,15 +95,12 @@ Este projeto tem a intenção de avaliar e mostrar ao candidato as ferramentas e
 
 <img src="Images/diagrama.png" alt="diagrama.png" width="700">
 
-
-## Como usar
-
-### Pré Requisitos
+## Pré Requisitos
 
 Antes de começar, você vai precisar ter o [Terraform](https://www.terraform.io/) instalado em sua máquina e uma conta na [AWS](https://aws.amazon.com/pt/) com a variável de ambiente configurada.
 Além disto é bom ter um editor para trabalhar com o código como o [Visual Studio Code](https://code.visualstudio.com/).
 
-### Rodando o código
+## Rodando o código
 
 ```bash
 Clone este repositório
